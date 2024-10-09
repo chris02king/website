@@ -1,15 +1,14 @@
-// src/App.js
 import React from 'react';
-import './App.css';  // Importing CSS for styling
+import './App.css';  // App styling
 import ImageUpload from './ImageUpload';
-import ImageList from './ImageList';
+import ImageList from './ImageList';  // Import the image list
 
 function App() {
   return (
     <div className="App">
       <h1>Image Upload & Download</h1>
       <ImageUpload />
-      <ImageList />
+      <ImageList />  {/* Add the image list component */}
     </div>
   );
 }
